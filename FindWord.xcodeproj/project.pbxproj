@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD67086B1CDC818800267448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD67086A1CDC818800267448 /* main.m */; };
+		CD67086E1CDC818800267448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD67086D1CDC818800267448 /* AppDelegate.m */; };
+		CD6708741CDC818800267448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6708721CDC818800267448 /* Main.storyboard */; };
+		CD6708761CDC818800267448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6708751CDC818800267448 /* Assets.xcassets */; };
+		CD6708791CDC818800267448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6708771CDC818800267448 /* LaunchScreen.storyboard */; };
+		CD6708841CDC818800267448 /* FindWordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6708831CDC818800267448 /* FindWordTests.m */; };
+		CD67088F1CDC818800267448 /* FindWordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD67088E1CDC818800267448 /* FindWordUITests.m */; };
+		CD67089F1CDC826000267448 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD67089E1CDC826000267448 /* SearchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6708801CDC818800267448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD67085E1CDC818800267448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6708651CDC818800267448;
+			remoteInfo = FindWord;
+		};
+		CD67088B1CDC818800267448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD67085E1CDC818800267448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6708651CDC818800267448;
+			remoteInfo = FindWord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6708661CDC818800267448 /* FindWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD67086A1CDC818800267448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD67086C1CDC818800267448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD67086D1CDC818800267448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD6708731CDC818800267448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6708751CDC818800267448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6708781CDC818800267448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD67087A1CDC818800267448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD67087F1CDC818800267448 /* FindWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6708831CDC818800267448 /* FindWordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindWordTests.m; sourceTree = "<group>"; };
+		CD6708851CDC818800267448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD67088A1CDC818800267448 /* FindWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD67088E1CDC818800267448 /* FindWordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindWordUITests.m; sourceTree = "<group>"; };
+		CD6708901CDC818800267448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD67089D1CDC826000267448 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		CD67089E1CDC826000267448 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6708631CDC818800267448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD67087C1CDC818800267448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6708871CDC818800267448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD67085D1CDC818800267448 = {
+			isa = PBXGroup;
+			children = (
+				CD6708681CDC818800267448 /* FindWord */,
+				CD6708821CDC818800267448 /* FindWordTests */,
+				CD67088D1CDC818800267448 /* FindWordUITests */,
+				CD6708671CDC818800267448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6708671CDC818800267448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6708661CDC818800267448 /* FindWord.app */,
+				CD67087F1CDC818800267448 /* FindWordTests.xctest */,
+				CD67088A1CDC818800267448 /* FindWordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6708681CDC818800267448 /* FindWord */ = {
+			isa = PBXGroup;
+			children = (
+				CD67086C1CDC818800267448 /* AppDelegate.h */,
+				CD67086D1CDC818800267448 /* AppDelegate.m */,
+				CD67089C1CDC824100267448 /* Search Word */,
+				CD6708721CDC818800267448 /* Main.storyboard */,
+				CD6708751CDC818800267448 /* Assets.xcassets */,
+				CD6708771CDC818800267448 /* LaunchScreen.storyboard */,
+				CD67087A1CDC818800267448 /* Info.plist */,
+				CD6708691CDC818800267448 /* Supporting Files */,
+			);
+			path = FindWord;
+			sourceTree = "<group>";
+		};
+		CD6708691CDC818800267448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD67086A1CDC818800267448 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD6708821CDC818800267448 /* FindWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6708831CDC818800267448 /* FindWordTests.m */,
+				CD6708851CDC818800267448 /* Info.plist */,
+			);
+			path = FindWordTests;
+			sourceTree = "<group>";
+		};
+		CD67088D1CDC818800267448 /* FindWordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD67088E1CDC818800267448 /* FindWordUITests.m */,
+				CD6708901CDC818800267448 /* Info.plist */,
+			);
+			path = FindWordUITests;
+			sourceTree = "<group>";
+		};
+		CD67089C1CDC824100267448 /* Search Word */ = {
+			isa = PBXGroup;
+			children = (
+				CD67089D1CDC826000267448 /* SearchViewController.h */,
+				CD67089E1CDC826000267448 /* SearchViewController.m */,
+			);
+			name = "Search Word";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6708651CDC818800267448 /* FindWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6708931CDC818800267448 /* Build configuration list for PBXNativeTarget "FindWord" */;
+			buildPhases = (
+				CD6708621CDC818800267448 /* Sources */,
+				CD6708631CDC818800267448 /* Frameworks */,
+				CD6708641CDC818800267448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindWord;
+			productName = FindWord;
+			productReference = CD6708661CDC818800267448 /* FindWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD67087E1CDC818800267448 /* FindWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6708961CDC818800267448 /* Build configuration list for PBXNativeTarget "FindWordTests" */;
+			buildPhases = (
+				CD67087B1CDC818800267448 /* Sources */,
+				CD67087C1CDC818800267448 /* Frameworks */,
+				CD67087D1CDC818800267448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6708811CDC818800267448 /* PBXTargetDependency */,
+			);
+			name = FindWordTests;
+			productName = FindWordTests;
+			productReference = CD67087F1CDC818800267448 /* FindWordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD6708891CDC818800267448 /* FindWordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6708991CDC818800267448 /* Build configuration list for PBXNativeTarget "FindWordUITests" */;
+			buildPhases = (
+				CD6708861CDC818800267448 /* Sources */,
+				CD6708871CDC818800267448 /* Frameworks */,
+				CD6708881CDC818800267448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD67088C1CDC818800267448 /* PBXTargetDependency */,
+			);
+			name = FindWordUITests;
+			productName = FindWordUITests;
+			productReference = CD67088A1CDC818800267448 /* FindWordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD67085E1CDC818800267448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pramod Sharma";
+				TargetAttributes = {
+					CD6708651CDC818800267448 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD67087E1CDC818800267448 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD6708651CDC818800267448;
+					};
+					CD6708891CDC818800267448 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD6708651CDC818800267448;
+					};
+				};
+			};
+			buildConfigurationList = CD6708611CDC818800267448 /* Build configuration list for PBXProject "FindWord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD67085D1CDC818800267448;
+			productRefGroup = CD6708671CDC818800267448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6708651CDC818800267448 /* FindWord */,
+				CD67087E1CDC818800267448 /* FindWordTests */,
+				CD6708891CDC818800267448 /* FindWordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6708641CDC818800267448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6708791CDC818800267448 /* LaunchScreen.storyboard in Resources */,
+				CD6708761CDC818800267448 /* Assets.xcassets in Resources */,
+				CD6708741CDC818800267448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD67087D1CDC818800267448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6708881CDC818800267448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6708621CDC818800267448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD67086E1CDC818800267448 /* AppDelegate.m in Sources */,
+				CD67089F1CDC826000267448 /* SearchViewController.m in Sources */,
+				CD67086B1CDC818800267448 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD67087B1CDC818800267448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6708841CDC818800267448 /* FindWordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6708861CDC818800267448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD67088F1CDC818800267448 /* FindWordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6708811CDC818800267448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6708651CDC818800267448 /* FindWord */;
+			targetProxy = CD6708801CDC818800267448 /* PBXContainerItemProxy */;
+		};
+		CD67088C1CDC818800267448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6708651CDC818800267448 /* FindWord */;
+			targetProxy = CD67088B1CDC818800267448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6708721CDC818800267448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6708731CDC818800267448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6708771CDC818800267448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6708781CDC818800267448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6708911CDC818800267448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD6708921CDC818800267448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6708941CDC818800267448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindWord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.FindWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD6708951CDC818800267448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindWord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.FindWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD6708971CDC818800267448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FindWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.FindWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindWord.app/FindWord";
+			};
+			name = Debug;
+		};
+		CD6708981CDC818800267448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FindWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.FindWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindWord.app/FindWord";
+			};
+			name = Release;
+		};
+		CD67089A1CDC818800267448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FindWordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.FindWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FindWord;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD67089B1CDC818800267448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FindWordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pramod.demo.FindWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FindWord;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6708611CDC818800267448 /* Build configuration list for PBXProject "FindWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6708911CDC818800267448 /* Debug */,
+				CD6708921CDC818800267448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6708931CDC818800267448 /* Build configuration list for PBXNativeTarget "FindWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6708941CDC818800267448 /* Debug */,
+				CD6708951CDC818800267448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD6708961CDC818800267448 /* Build configuration list for PBXNativeTarget "FindWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6708971CDC818800267448 /* Debug */,
+				CD6708981CDC818800267448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD6708991CDC818800267448 /* Build configuration list for PBXNativeTarget "FindWordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD67089A1CDC818800267448 /* Debug */,
+				CD67089B1CDC818800267448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD67085E1CDC818800267448 /* Project object */;
+}

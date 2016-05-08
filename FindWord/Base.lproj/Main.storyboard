@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="3eM-eB-kV4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SearchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rbU-XU-5ap"/>
+                        <viewControllerLayoutGuide type="bottom" id="yqM-MK-5g8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter your word" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DfY-dV-7OH">
+                                <rect key="frame" x="30" y="78" width="259" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your Word Below" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5aF-Or-EUl">
+                                <rect key="frame" x="35" y="37" width="249" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6y-9y-bUz">
+                                <rect key="frame" x="86" y="163" width="148" height="30"/>
+                                <state key="normal" title="TRY IT"/>
+                                <connections>
+                                    <action selector="tryItBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tTh-if-tmP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="DfY-dV-7OH" secondAttribute="trailing" constant="15" id="0Jj-5W-E9v"/>
+                            <constraint firstItem="DfY-dV-7OH" firstAttribute="top" secondItem="5aF-Or-EUl" secondAttribute="bottom" constant="20.5" id="0SD-f5-HmD"/>
+                            <constraint firstItem="C6y-9y-bUz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="Fuz-xM-Hvi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C6y-9y-bUz" secondAttribute="trailing" constant="70" id="POJ-xb-FQL"/>
+                            <constraint firstItem="5aF-Or-EUl" firstAttribute="top" secondItem="rbU-XU-5ap" secondAttribute="bottom" constant="37" id="XnR-78-Ecd"/>
+                            <constraint firstItem="C6y-9y-bUz" firstAttribute="top" secondItem="DfY-dV-7OH" secondAttribute="bottom" constant="55" id="cfh-D7-6J6"/>
+                            <constraint firstItem="DfY-dV-7OH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="rQO-Cc-Zb8"/>
+                            <constraint firstItem="5aF-Or-EUl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="19" id="t9B-Oq-oar"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5aF-Or-EUl" secondAttribute="trailing" constant="20" id="yuv-BY-TNp"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="ErT-EU-xnN"/>
+                    <connections>
+                        <outlet property="txtWord" destination="DfY-dV-7OH" id="okv-PC-SOi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="546" y="276"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IQt-KF-0uZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3eM-eB-kV4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ExH-KB-bwC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CG3-4t-kUx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vu9-4X-4MY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="276"/>
+        </scene>
+    </scenes>
+</document>
